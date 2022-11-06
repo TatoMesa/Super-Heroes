@@ -5,9 +5,14 @@
     padding: 0;
 }
 body{
-    margin-right: auto;
-    margin-left: auto;
+    width: 100%;
+    background-color: cornflowerblue;
    
+}
+header{
+    position: fixed;
+    width:100%;
+    z-index: 1;
 }
 .hea{
     background-color: #1CD1B0;
@@ -16,7 +21,6 @@ body{
 }
 h1{
     background-color:#00669F;
-   
     padding: 9px 0px 9px 20px;
     box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
     
@@ -24,43 +28,45 @@ h1{
 .container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    justify-content:space-around;
+    padding-top: 130px;
+    padding-bottom: 90px;
+    
 }
 .carta{
-    
     width: 300px;
-    height: 500px;
-    margin: 20px;
     background-color: #F3F3F3;
     box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
-    padding-bottom: 30px;
+    padding: 15px;
+    margin: 15px;
+    display:flex;
+    flex-direction:column;
 }
 .logo{
-    width: 40px;
+    width: 12%;
     position:relative;
-    top: -240px;
-    left: -85px;
-    
+    left: 20px;
+    top:-18rem;
 }
 .avatar{
-    width: 110px;
+    width: 40%;
     border-radius: 100%;
     position:relative;
     top: -70px;
-    left: 95px;
+    margin-left: auto;
+    margin-right: auto;
 }
 h2{
     text-align: center;
     position: relative;
-    top:-70px;
+    top:-80px;
     text-transform: uppercase;
 }
 .parrafo{
     padding:20px;
     position: relative;
     top:-70px;
+    text-align:center;
     
 }
 .boton{
@@ -68,11 +74,10 @@ h2{
     color:white;
     text-decoration: none;
     padding:10px 15px 10px 15px;
-    width: 59px;
-    font-size: 15px;
-    position:relative;
-    top: -40px;
-    left: 110px;
+    width: 60px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -85,4 +90,33 @@ footer{
     padding-left: 18px;
     color: white;
     background-color: #00669F;
+}
+
+@media  (max-width: 720px)and (min-width:480px){
+   
+    .carta{
+        width:100%;
+    }
+    .parrafo{
+        font-size: 25px;
+        padding: 30px;
+    }
+    .avatar{
+        top: -145px;
+    }
+    .logo{
+        top:-90vw;
+        left:5vw;
+    }
+    h2{
+        font-size: 45px;
+    }
+    .boton{
+        width: 100px;
+        font-size: 20px;
+        
+    }
+
+
+    
 }
