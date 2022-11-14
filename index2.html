@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 2</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body class="formulario">
+    <header>
+        <p Class="hea">Descuentos 20%</p>
+        <div>
+            <img src="./img/Logo.png" alt="Logo">
+            <h1>Heroes</h1>
+        </div>
+    </header>
+    <main>
+        <section class="formulario1" >
+            <h3>Añadí tu Super Heroe</h3>
+            <p>Agrega tu personaje favorito completando las opciones</p>
+            <form class="formulario2" action="./resultado.html" method="post">
+                <span>
+                    <label for="nombre">*Nombre</label>
+                    <br>
+                    <input class="datos" type="text" name="nombre" id="nombre">
+                </span>
+                <span>
+                    <label for="especie">*Especie </label>
+                    <br>
+                    <select class="datos" name="Especie" id="especie">
+                        <option value="Especie"></option>
+                        <option value=""></option>
+                    </select>
+                </span>
+                <span>
+                    <label for="fecha">Fecha</label>
+                    <br>
+                    <input class="datos" type="date" id="f_nac" name="f_nac" />
+                </span>
+                <span>
+                    <label for="foto">Agregar Foto</label>
+                    <br>
+                    <input class="datosArc" type="file" id="foto" name="foto" accept="image/png, image/jpeg" />
+                </span>
+            </form>
+        </section>
+
+
+    </main>
+    <footer>
+        <p> Todos los derechos reservados a Digital Mind</p>
+    </footer>
+</body>
+
+</html>
