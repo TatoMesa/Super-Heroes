@@ -174,8 +174,11 @@ form>p {
     color:black;
     position:relative;
     top:17px;
-    
-
+}
+.opciones{
+    width:300px;
+    line-height: 25px;
+    margin: 5px;
 }
 
 
