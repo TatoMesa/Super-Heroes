@@ -135,7 +135,7 @@ footer{
     flex-wrap: wrap;
     text-align: left;
     justify-content: space-around;
-    padding: 30px;
+   
     align-items: center;
     gap: 20px;
     
@@ -164,7 +164,8 @@ form>p {
     width: 300px;
     height: 200px;
     margin-top:10px;
-    padding:10px;
+    padding-left: 5px;
+    padding-top: 5px;
 }
 .datosArc{
     border-radius: 5px;
@@ -177,11 +178,23 @@ form>p {
 }
 .opciones{
     width:300px;
-    line-height: 25px;
-    margin: 5px;
+    line-height: 30px;
 }
 
+.boton1{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    background-color:#1CD1B0;
+    font:15px;
+    
+}
 
+form>span:last-child{
+    text-decoration: none;
+    font-size: x-large;
+    color:black;
+}
 
 @media  (max-width: 720px)and (min-width:480px){
    
